@@ -451,12 +451,12 @@ resources:
             #Remove-Item $MyINvocation.InvocationName
             #endregion
             New-Item -ItemType file -Name super.txt
-            Deploy-AspdotNet -DomainName "$$sitedomain" -FtpUserName "$$ftpusername" -FtpPassword "$$ftppassword"
+            Deploy-AspdotNet -DomainName "%%sitedomain" -FtpUserName "%%ftpusername" -FtpPassword "%%ftppassword"
             #endregion
           params:
-            "$$sitedomain" : { get_param:  domain }
-            "$$ftpusername" : { get_param: ftp_username }
-            "$$ftppassword" : { get_attr: [ftp_password,value] }
+            "%%sitedomain" : { get_param:  domain }
+            "%%ftpusername" : { get_param: ftp_username }
+            "%%ftppassword" : { get_attr: [ftp_password,value] }
 
   # Random password generation
   ftp_password:
