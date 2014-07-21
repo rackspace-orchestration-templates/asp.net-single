@@ -15,9 +15,11 @@ parameter_groups:
   parameters:
   - domain
   - ftp_username
-  - server_hostname
   - aspdotnet_version
 
+- label: rax-dev-params
+  parameters:
+  - server_hostname
 
 parameters:
 
@@ -72,7 +74,7 @@ parameters:
   # ASP .Net settings
   domain:
     label: Site Domain
-    description: Domain to be used with WordPress site
+    description: Domain to be used with the ASP .net site
     type: string
     default: "example.com"
     constraints:
@@ -81,7 +83,9 @@ parameters:
 
   ftp_username:
     label: FTP Username
-    description: FTP Username for the site
+    description: |
+      FTP Username for the site. A password will be randomly generated for this
+      account.
     type: string
     default: "ftp_user"
     constraints:
