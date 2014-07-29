@@ -2,7 +2,7 @@ schema-version: 1.0.0
 application-family: Application Frameworks
 application-name: ASP .Net
 application-version: 4.5.1
-flavor: Single Windows Server running ASP .Net 4.5.1
+flavor: Single Windows server
 flavor-weight: 1
 reach-info:
   icon-20x20: https://0b5294b243620310a700-e388a7f3aba385a925111b1fc6f680d4.ssl.cf2.rackcdn.com/asp-net-icon-20x20.png
@@ -10,7 +10,9 @@ reach-info:
 hidden_outputs:
   - admin_password
   - site_ftp_password
-abstract: A single Windows server running IIS, ASP .Net 4.5.1 and a FTP site
+abstract: |
+  A single Windows server running [IIS](http://www.iis.net/), [ASP .Net
+  4.5.1](http://www.asp.net/), and a FTP site.
 instructions: |
   #### Getting Started
   If you're new to running a web application built with  ASP .Net framework
