@@ -107,6 +107,8 @@ resources:
       flavor: { get_param: flavor }
       image: { get_param: image }
       save_admin_pass: true
+      metadata:
+        rax-heat: { get_param: "OS::stack_id" }
       user_data:
         str_replace:
           template: |
