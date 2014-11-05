@@ -56,19 +56,12 @@ parameters:
       Cloud Server size to use for the database server. Sizes refer to the
       amount of RAM allocated to the server.
     type: string
-    default: 4 GB Performance
+    default: 4 GB General Purpose v1
     constraints:
     - allowed_values:
-      - 2 GB Performance
-      - 4 GB Performance
-      - 8 GB Performance
-      - 15 GB Performance
-      - 30 GB Performance
-      - 2GB Standard Instance
-      - 4GB Standard Instance
-      - 8GB Standard Instance
-      - 15GB Standard Instance
-      - 30GB Standard Instance
+      - 2 GB General Purpose v1
+      - 4 GB General Purpose v1
+      - 8 GB General Purpose v1
       description: must be a valid Rackspace Cloud Server flavor.
 
   # ASP .Net settings
