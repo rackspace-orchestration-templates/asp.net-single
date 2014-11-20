@@ -34,7 +34,7 @@ parameters:
       Required: Server image used for all servers that are created as a part of
       this deployment.
     type: string
-    default: Windows Server 2012
+    default: Windows Server 2012 R2
     constraints:
     - allowed_values:
       - Windows Server 2008 R2 SP1
@@ -45,6 +45,9 @@ parameters:
       - Windows Server 2012
       - Windows Server 2012 + SQL Server 2012 SP1 Standard
       - Windows Server 2012 + SQL Server 2012 SP1 Web
+      - Windows Server 2012 R2 + SQL Server 2014 Standard
+      - Windows Server 2012 R2 + SQL Server 2014 Web
+      - Windows Server 2012 R2
       description: must be a supported OS
 
   flavor:
