@@ -34,3 +34,4 @@ instructions: |
   safe to change settings and configurations on your server and within
   IIS. The FTP (File transfer Protocol) credential is included in the
   passwords/secrets section of this deployment.
+user-input-required: true
