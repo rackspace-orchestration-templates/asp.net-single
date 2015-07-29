@@ -35,3 +35,8 @@ instructions: |
   IIS. The FTP (File transfer Protocol) credential is included in the
   passwords/secrets section of this deployment.
 user-input-required: true
+
+description: |
+  A single Windows server running
+  [IIS](http://www.iis.net/), [ASP .Net 4.5.1](http://www.asp.net/)
+  and a FTP site.
