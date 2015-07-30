@@ -11,8 +11,8 @@ hidden_outputs:
   - admin_password
   - site_ftp_password
 abstract: |
-  A single Windows server running [IIS](http://www.iis.net/), [ASP .Net
-  4.5.1](http://www.asp.net/), and a FTP site.
+  ASP.Net is an open-source web application framework that allows Windows
+  developers to easily create dynamic sites.
 instructions: |
   #### Getting Started
   If you're new to running a web application built with  ASP .Net framework
