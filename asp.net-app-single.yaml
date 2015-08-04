@@ -1,8 +1,9 @@
 heat_template_version: 2013-05-23
 
 description: |
-  HEAT template for setting up a site in IIS with a FTP account on a single Windows
-  Server
+  A single Windows server running
+  [IIS](http://www.iis.net/), [ASP .Net 4.5.1](http://www.asp.net/)
+  and a FTP site.
 
 parameter_groups:
 
