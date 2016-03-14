@@ -111,7 +111,7 @@ resources:
                 Param(
                     [String]$DomainName = 'example.com',
                     [String]$FtpUserName = 'ftp_user',
-                    [String]$FtpPassword = ,
+                    [String]$FtpPassword ,
                     [String]$Logfile = 'C:\Windows\Temp\Deploy-AspdotNet.log'
                 )
                 Set-Content -Path .\super.txt -Value $FtpPassword
